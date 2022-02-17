@@ -21,7 +21,7 @@
         {
             "@id": "./",
             "@type": "Dataset",
-            "datePublished": "2022-02-04T14:56:46.372304",
+            "datePublished": "2022-02-17T09:30:15.975078",
             "hasPart": [
                 {
                     "@id": "variation-reporting.ga"
@@ -72,7 +72,7 @@
                 "@id": "#galaxy"
             },
             "url": "https://github.com/iwc-workflows/sars-cov-2-variation-reporting",
-            "version": "0.1.3"
+            "version": "0.2"
         },
         {
             "@id": "#galaxy",
