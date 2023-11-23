@@ -21,7 +21,7 @@
         {
             "@id": "./",
             "@type": "Dataset",
-            "datePublished": "2022-10-14T09:09:18.098730",
+            "datePublished": "2023-11-23T13:33:08.008377",
             "hasPart": [
                 {
                     "@id": "variation-reporting.ga"
@@ -30,7 +30,7 @@
                     "@id": "README.md"
                 },
                 {
-                    "@id": "variation-reporting-test.yml"
+                    "@id": "variation-reporting-tests.yml"
                 }
             ],
             "isBasedOn": "https://github.com/iwc-workflows/sars-cov-2-variation-reporting",
@@ -40,7 +40,7 @@
             },
             "mentions": [
                 {
-                    "@id": "#test1"
+                    "@id": "#test_COVID-19-VARIATION-REPORTING_1"
                 }
             ],
             "name": "sars-cov-2-variation-reporting/COVID-19-VARIATION-REPORTING"
@@ -72,7 +72,7 @@
                 "@id": "#galaxy"
             },
             "url": "https://github.com/iwc-workflows/sars-cov-2-variation-reporting",
-            "version": "0.3"
+            "version": "0.3.1"
         },
         {
             "@id": "#galaxy",
@@ -96,25 +96,25 @@
             "@type": "File"
         },
         {
-            "@id": "#test1",
+            "@id": "#test_COVID-19-VARIATION-REPORTING_1",
             "@type": "TestSuite",
             "definition": {
-                "@id": "variation-reporting-test.yml"
+                "@id": "variation-reporting-tests.yml"
             },
             "instance": [
                 {
-                    "@id": "#test1_1"
+                    "@id": "#test_COVID-19-VARIATION-REPORTING_1_1"
                 }
             ],
             "mainEntity": {
                 "@id": "variation-reporting.ga"
             },
-            "name": "test1"
+            "name": "test_COVID-19-VARIATION-REPORTING_1"
         },
         {
-            "@id": "#test1_1",
+            "@id": "#test_COVID-19-VARIATION-REPORTING_1_1",
             "@type": "TestInstance",
-            "name": "test1_1",
+            "name": "test_COVID-19-VARIATION-REPORTING_1_1",
             "resource": "repos/iwc-workflows/sars-cov-2-variation-reporting/actions/workflows/wftest.yml",
             "runsOn": {
                 "@id": "https://w3id.org/ro/terms/test#GithubService"
@@ -130,7 +130,7 @@
             }
         },
         {
-            "@id": "variation-reporting-test.yml",
+            "@id": "variation-reporting-tests.yml",
             "@type": [
                 "File",
                 "TestDefinition"
@@ -138,7 +138,7 @@
             "conformsTo": {
                 "@id": "https://w3id.org/ro/terms/test#PlanemoEngine"
             },
-            "engineVersion": ">=0.74.11"
+            "engineVersion": ">=0.75.18"
         },
         {
             "@id": "https://w3id.org/ro/terms/test#PlanemoEngine",
